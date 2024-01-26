@@ -7,7 +7,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'https://nz.darkblue.free.hr/';
 const NEZHA_PORT = process.env.NEZHA_PORT || '2096';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'zKmGgsska2Ix4Kwg0J';
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.darkblue.cloudns.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || '9ef760b4c7908705358ee662fa6e6d29","TunnelSecret":"6qRYvAPO4CdGMTsqHhic/Cj5sLNsxbSkexFCfTtZ6G0=","TunnelID":"9dcfe760-a109-4385-813b-19db55540890';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOGI5NzI0MDgwZTU1ZTcwMzcwZmI3NDI4NzkyMmYzMWIiLCJ0IjoiOGNlY2VlYzQtYzZiNi00N2VkLThhZjItY2I4MThmMDkxZWJkIiwicyI6Ik5XWTFNV1ZsWm1NdFpEYzJZeTAwWkdSaExUbGtZall0TnpneVpqZ3haVE00WkRBNSJ9';
 const CFIP = process.env.CFIP || 'government.se';
 const NAME = process.env.NAME || 'Choreo';
 
